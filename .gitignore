@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/c-sharp-10-language-features-advanced/02/demos/Windows/Start_Here/WarehouseManagementSystem/.vs/WarehouseManagementSystem

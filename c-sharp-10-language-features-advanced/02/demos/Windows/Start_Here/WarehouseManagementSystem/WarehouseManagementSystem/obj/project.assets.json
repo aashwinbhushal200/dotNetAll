@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "WarehouseManagementSystem.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "WarehouseManagementSystem.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WarehouseManagementSystem.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WarehouseManagementSystem.Business.dll": {}
+        }
+      },
+      "WarehouseManagementSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WarehouseManagementSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WarehouseManagementSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WarehouseManagementSystem.Business/1.0.0": {
+      "type": "project",
+      "path": "../WarehouseManagementSystem.Business/WarehouseManagementSystem.Business.csproj",
+      "msbuildProject": "../WarehouseManagementSystem.Business/WarehouseManagementSystem.Business.csproj"
+    },
+    "WarehouseManagementSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../WarehouseManagementSystem.Domain/WarehouseManagementSystem.Domain.csproj",
+      "msbuildProject": "../WarehouseManagementSystem.Domain/WarehouseManagementSystem.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "WarehouseManagementSystem.Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pc\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\dotNetAll\\c-sharp-10-language-features-advanced\\02\\demos\\Windows\\Start_Here\\WarehouseManagementSystem\\WarehouseManagementSystem\\WarehouseManagementSystem.csproj",
+      "projectName": "WarehouseManagementSystem",
+      "projectPath": "F:\\dotNetAll\\c-sharp-10-language-features-advanced\\02\\demos\\Windows\\Start_Here\\WarehouseManagementSystem\\WarehouseManagementSystem\\WarehouseManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "F:\\dotNetAll\\c-sharp-10-language-features-advanced\\02\\demos\\Windows\\Start_Here\\WarehouseManagementSystem\\WarehouseManagementSystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "F:\\dotNetAll\\c-sharp-10-language-features-advanced\\02\\demos\\Windows\\Start_Here\\WarehouseManagementSystem\\WarehouseManagementSystem.Business\\WarehouseManagementSystem.Business.csproj": {
+              "projectPath": "F:\\dotNetAll\\c-sharp-10-language-features-advanced\\02\\demos\\Windows\\Start_Here\\WarehouseManagementSystem\\WarehouseManagementSystem.Business\\WarehouseManagementSystem.Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
